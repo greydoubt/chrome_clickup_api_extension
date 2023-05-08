@@ -13,10 +13,10 @@ Load TaskLinker extension: Click on the "Load unpacked" button that appears afte
 
 Configure TaskLinker: After loading the extension, locate the TaskLinker icon in the toolbar. Right-click on the icon and select "Options" from the menu. A new tab will open.
 
-Enter API key and List ID: In the TaskLinker options tab, find the field labeled "API Key" and enter your ClickUp API key. Similarly, locate the field labeled "List ID" and enter the List ID associated with the workspace you want to connect.
+Enter API key and List ID: In the TaskLinker folder, locate and open popup.js with a text editor, find the string labeled "API Key" and enter your ClickUp API key. Similarly, locate the string labeled "List ID" and enter the List ID associated with the workspace you want to connect. Save the file.
 
-Save the configuration: After entering the API key and List ID, click the "Save" button to store the configuration.
+Save the configuration: After entering the API key and List ID, click the "Reload" button in the Chrome extension manager to refresh the extension.
 
-Start using TaskLinker: With the configuration saved, TaskLinker is ready to use. Open a new tab or navigate to a website, and you'll see the TaskLinker icon in the toolbar. Click on it to view recent tasks from your ClickUp workspace. To associate a URL with a task, simply click the "Add URL" button next to the relevant task.
+Start using TaskLinker: With the configuration saved, TaskLinker is ready to use. Open a new tab or navigate to a website, and you'll see the TaskLinker icon in the toolbar. Click on it to view recent tasks from your ClickUp workspace. To associate a URL with a task, simply click the  button next to the relevant task.
 
 Congratulations! You have successfully installed and configured TaskLinker as an unpacked Google Chrome extension from GitHub. Enjoy seamless integration between your ClickUp workspace and web browsing, allowing you to stay organized, share URLs, and access tasks across multiple devices.
