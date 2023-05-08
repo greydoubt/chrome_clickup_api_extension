@@ -4,14 +4,38 @@
   <meta charset="UTF-8">
   <title>ClickUp Tasks</title>
   <style>
+    body {
+      background-color: #22212C;
+      color: #FFFFFF;
+      font-family: Arial, sans-serif;
+    }
+
+    h1 {
+      color: #9580FF;
+    }
+
     .task-list-item {
       margin-bottom: 8px;
+    }
+
+    button {
+      background-color: #8AFF80;
+      color: #22212C;
+      border: none;
+      padding: 8px 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #FF5555;
+      color: #FFFFFF;
     }
   </style>
 </head>
 <body>
   <h1>Tasks</h1>
   <ul id="tasks-container" class="task-list"></ul>
+  
   <script src="popup.js"></script>
 </body>
 </html>
