@@ -1,0 +1,20 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list-item {
+  margin-bottom: 10px;
+}
+
+.task-list-item button {
+  margin-left: 10px;
+}
